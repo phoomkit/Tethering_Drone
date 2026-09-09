@@ -25,6 +25,19 @@
 
 ## Tethered UAV Research
 
+### An Experimental Tethered UAV-Based Communication System with Continuous Power Supply
+
+- **ประเภท:** Peer-reviewed open-access journal article
+- **ผู้แต่ง:** Veronica Rodriguez, Christian Tipantuña, Diego Reinoso, Jorge Carvajal-Rodriguez, Carlos Egas Acosta, Pablo Proaño และ Xavier Hesselbach
+- **วารสาร:** Future Internet, 2025, 17(7), Article 273
+- **DOI:** https://doi.org/10.3390/fi17070273
+- **ลิงก์บทความ:** https://www.mdpi.com/1999-5903/17/7/273
+- **วันที่เข้าถึง:** 2026-09-09
+- **ใช้กับงาน:** สถาปัตยกรรม Tethered UAV, ระบบจ่ายไฟต่อเนื่องจากภาคพื้นดิน, ground station, การสื่อสาร, การวัดกำลังไฟ และการทดสอบเสถียรภาพที่ความสูง
+- **ผลสำคัญ:** ต้นแบบ quadcopter ทำงานอย่างเสถียรที่ 16 V และ 20 A ณ ความสูง 10 เมตร พร้อมให้บริการสื่อสาร VoIP ผ่านอุปกรณ์ Raspberry Pi 4B ด้วย latency ต่ำ งานวิจัยประเมินการใช้พลังงาน เสถียรภาพของ UAV และประสิทธิภาพการส่งข้อมูล
+- **ความเกี่ยวข้องกับโครงการ:** เป็นงานอ้างอิงที่ใกล้เคียงโดยตรง เพราะรวมสายจ่ายไฟจาก ground station และระบบสื่อสารบน Tethered UAV สามารถใช้เปรียบเทียบ architecture, power budget และ test methodology ได้ อย่างไรก็ตาม proposal ของโครงการกำหนดระบบส่งกำลังไฟ 48 V จึงไม่ควรนำค่าแรงดันและวงจรจากงานนี้มาใช้โดยตรงโดยไม่มีการคำนวณและทดสอบใหม่
+- **ข้อจำกัดที่ควรศึกษา:** ต้นแบบในบทความยังไม่ได้รวมแหล่งจ่ายของ Raspberry Pi เข้ากับ power network หลัก และเสนอ backup battery, ระบบจัดการสายสำหรับความสูงเกิน 10 เมตร และการทดสอบลม/ฝนเป็นงานต่อยอด
+
 ### Quadcopter Drone Modeling - MATLAB & Simulink
 
 - **ประเภท:** Technical example / Website / Simulation model
