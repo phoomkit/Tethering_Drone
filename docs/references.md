@@ -25,7 +25,15 @@
 
 ## Tethered UAV Research
 
-ยังไม่มีรายการ
+### Quadcopter Drone Modeling - MATLAB & Simulink
+
+- **ประเภท:** Technical example / Website / Simulation model
+- **ผู้จัดทำหรือองค์กร:** MathWorks
+- **ลิงก์หลัก:** https://ww2.mathworks.cn/help/sps/ug/quadcopter-drone.html
+- **Source model:** https://github.com/mathworks/Quadcopter-Drone-Model-Simscape
+- **วันที่เข้าถึง:** 2026-09-09
+- **ใช้กับงาน:** การสร้างแบบจำลองระบบกลไกและไฟฟ้า การประมาณกระแส การควบคุมความสูงและท่าทาง และการทดสอบเสถียรภาพ
+- **สรุป:** ตัวอย่างนี้จำลอง quadcopter ด้วย MATLAB, Simulink และ Simscape โดยครอบคลุมมอเตอร์ แบตเตอรี่ โครงสร้างจาก CAD ตัวควบคุม PID แบบ cascade การติดตามเส้นทาง และการทดสอบผลกระทบจากลม เหมาะสำหรับใช้เป็นแนวทางสร้างแบบจำลองและวางแผนการทดสอบของโครงการ แต่ไม่ได้เป็นแบบจำลอง tethered power system โดยตรง จึงต้องพัฒนาส่วนสายโยง ระบบจ่ายไฟ 48 V และวงจรป้องกันเพิ่มเติม
 
 ## Power Distribution and Electrical Safety
 
